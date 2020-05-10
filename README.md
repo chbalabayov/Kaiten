@@ -13,7 +13,7 @@ Source: https://www.shadowlabs.cc/kaiten
 [![GitHub issues](https://img.shields.io/github/issues/shadowlabscc/Kaiten.svg)](https://github.com/shadowlabscc/ProjectOpal/issues)
 [![GitHub stars](https://img.shields.io/github/stars/shadowlabscc/Kaiten.svg)](https://github.com/shadowlabscc/ProjectOpal/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shadowlabscc/Kaiten.svg)](https://github.com/shadowlabscc/Kaiten/network)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/shadowlabscc/ProjectOpal.svg?style=popout)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/shadowlabscc/Kaiten)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/shadowlabscc/Kaiten.svg?style=popout)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/shadowlabscc/Kaiten)
 
 ## Features
 
