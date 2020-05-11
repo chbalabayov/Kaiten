@@ -3,6 +3,7 @@
 
 # Kaiten
 A Undetectable Payload Generation with extras.
+This tool is for educational purpose only, usage of Keiten for attacking targets without prior mutual consent is illegal. Developers assume no liability and are not responsible for any misuse or damage cause by this program.
 
 ***Official Kaiten Repository.***
 
