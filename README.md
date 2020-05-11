@@ -2,7 +2,7 @@
 ![logo](https://i.imgur.com/zDAgX52.png)
 
 # Kaiten
-A Undetectable Payload Generation with extras.
+A Undetectable Payload Generation.
 This tool is for educational purpose only, usage of Keiten for attacking targets without prior mutual consent is illegal. Developers assume no liability and are not responsible for any misuse or damage cause by this program.
 
 ***Official Kaiten Repository.***
@@ -18,7 +18,7 @@ Source: https://www.shadowlabs.cc/kaiten
 
 ## Features
 
--   Undetectable Payload Generation
+- Undetectable Payload Generation
 - Stealth FUD Payload
 - Self Signing Certificate
 - Random Junk code
@@ -26,7 +26,7 @@ Source: https://www.shadowlabs.cc/kaiten
 ## Affected Devices and Operating Systems
 - Windows
 - Android (soon)
-- Mac/Linux (soon)
+- Mac/Linux
 
 ## Diagrams (also its cool hehe)
 
