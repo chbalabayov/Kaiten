@@ -17,6 +17,11 @@ Source: https://www.shadowlabs.cc/kaiten
 [![GitHub forks](https://img.shields.io/github/forks/shadowlabscc/Kaiten.svg)](https://github.com/shadowlabscc/Kaiten/network)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/shadowlabscc/ProjectOpal.svg?style=popout)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/shadowlabscc/Kaiten)
 
+## Requirements
+- MingW
+- GCC
+- OSSLSIGNCODE
+
 ## Features
 
 - Undetectable Payload Generation
