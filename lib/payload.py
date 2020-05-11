@@ -4,6 +4,7 @@ from lib import junk
 
 characters = string.ascii_letters + string.digits
 words = string.ascii_letters
+string_rem = str("".join(choice(words) for x in range(randint(7, 13))))
 payload_generate = junk.junk_code + '''
 #include <stdio.h>
 #include <stdlib.h>
@@ -76,33 +77,19 @@ int decode(const ubyte source[], ubyte sink[]) {
     return 0;
 }
 
-void number() {
+void ''' + str("".join(choice(words) for x in range(randint(5, 7)))) + '''() {
 
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
+    int ''' + string_rem + ''';
+    printf("Enter something: ");
+    scanf("%d", &''' + string_rem + ''');
 
-    // True if num is perfectly divisible by 2
-    if(num % 2 == 0)
-        printf("%d is even.", num);
+    if(''' + string_rem + ''' % 2 == 0)
+        printf("%d is even.", ''' + string_rem + ''');
     else
-        printf("%d is odd.", num);
+        printf("%d is odd.", ''' + string_rem + ''');
 
 }
 
-void number2() {
-
-    int num2;
-    printf("Enter an integer: ");
-    scanf("%d", &num2);
-
-    // True if num is perfectly divisible by 2
-    if(num2 % 2 == 0)
-        printf("%d is even.", num2);
-    else
-        printf("%d is odd.", num2);
-
-}
 
 
 int main(int argc, char *argv[])
